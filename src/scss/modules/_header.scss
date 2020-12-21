@@ -1,6 +1,5 @@
 
 header{
-    height: 100vh;
     
     #carouselExampleCaptions{
         nav{
@@ -55,10 +54,15 @@ header{
         .carousel-inner{
             .carousel-item{
                 .img-c{
-                    filter:contrast(25%);
+                    filter: brightness(30%);
                 }
             }
         }
         
+    }
+    .dents{
+        position:  absolute;
+        bottom:0%;
+        display: flex;
     }
 }

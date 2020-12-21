@@ -18060,10 +18060,6 @@ a.text-text:hover, a.text-text:focus {
   }
 }
 
-header {
-  height: 100vh;
-}
-
 header #carouselExampleCaptions nav .nav-item {
   border-top: white 3px solid;
   border-bottom: white 2px solid;
@@ -18111,5 +18107,26 @@ header #carouselExampleCaptions .carousel-caption .button-header .button-rouge {
 }
 
 header #carouselExampleCaptions .carousel-inner .carousel-item .img-c {
-  filter: contrast(25%);
+  filter: brightness(30%);
+}
+
+header .dents {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+}
+
+.section1 .our-story {
+  font-family: "courgette";
+}
+
+.section1 .our {
+  font-family: "courgette";
+  color: #B32A3A;
+  font-size: 50px;
+}
+
+body {
+  margin: 0;
+  background-image: url("../img/main_bg.jpg");
 }
