@@ -1,0 +1,6 @@
+# Mettre ici les fichiers que vous ne voulez pas que votre terminal les lises
+/node_modules
+
+#   !! A METTRE EN NON-COMMENTAIRE QU'APRES AVOIR TELECHARGER FONTAWESOME , BOOTSTRAP , JQUERY ... !!
+
+# /node_modules
