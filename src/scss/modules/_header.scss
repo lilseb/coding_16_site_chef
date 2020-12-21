@@ -1,5 +1,6 @@
+
 header{
-    
+    height: 100vh;
     
     #carouselExampleCaptions{
         nav{
@@ -16,5 +17,48 @@ header{
 
             }
         }
+
+        
+            
+        .carousel-caption{
+            padding-bottom: 25%;
+            h1{
+                font-family: "courgette";
+                margin-bottom: 30px ;
+
+                .occasion{
+                    text-transform: uppercase;
+                        }
+                .taste{
+                    text-transform: uppercase;
+                    color:#B32A3A;
+                        }
+                .makes{
+                    font-size: 45px;
+                        }
+                .remember{
+                    font-size: 45px;
+                        }
+            }
+            .button-header{
+                
+                .button-gris{
+                    background-color: #e2e2e2;
+                    border-radius: 30px;
+                }
+                .button-rouge{
+                    background-color: #C12D3F;
+                    border-radius: 30px;
+                }
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                .img-c{
+                    filter:contrast(25%);
+                }
+            }
+        }
+        
     }
 }

@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url("../../public/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "courgette";
+  src: url("../../public/fonts/Courgette/Courgette-Regular.ttf");
+}
+
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -18050,6 +18060,10 @@ a.text-text:hover, a.text-text:focus {
   }
 }
 
+header {
+  height: 100vh;
+}
+
 header #carouselExampleCaptions nav .nav-item {
   border-top: white 3px solid;
   border-bottom: white 2px solid;
@@ -18058,4 +18072,44 @@ header #carouselExampleCaptions nav .nav-item {
 header #carouselExampleCaptions nav .nav-item .nav-link:hover {
   background-color: #C12D3F;
   border-radius: 0%;
+}
+
+header #carouselExampleCaptions .carousel-caption {
+  padding-bottom: 25%;
+}
+
+header #carouselExampleCaptions .carousel-caption h1 {
+  font-family: "courgette";
+  margin-bottom: 30px;
+}
+
+header #carouselExampleCaptions .carousel-caption h1 .occasion {
+  text-transform: uppercase;
+}
+
+header #carouselExampleCaptions .carousel-caption h1 .taste {
+  text-transform: uppercase;
+  color: #B32A3A;
+}
+
+header #carouselExampleCaptions .carousel-caption h1 .makes {
+  font-size: 45px;
+}
+
+header #carouselExampleCaptions .carousel-caption h1 .remember {
+  font-size: 45px;
+}
+
+header #carouselExampleCaptions .carousel-caption .button-header .button-gris {
+  background-color: #e2e2e2;
+  border-radius: 30px;
+}
+
+header #carouselExampleCaptions .carousel-caption .button-header .button-rouge {
+  background-color: #C12D3F;
+  border-radius: 30px;
+}
+
+header #carouselExampleCaptions .carousel-inner .carousel-item .img-c {
+  filter: contrast(25%);
 }

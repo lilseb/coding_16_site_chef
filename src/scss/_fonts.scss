@@ -6,7 +6,13 @@
 
 // 3 - voici l'écriture : @font-face{font-family: 'METTRE NOM VOULU'; src: url('../../public/fonts/CHOISIR-DOSSIER-FONT');}
 
+@font-face{
+    font-family: "ubuntu"; src: url("../../public/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
 
+@font-face{
+    font-family: "courgette"; src: url("../../public/fonts/Courgette/Courgette-Regular.ttf");
+}
 
 
 
