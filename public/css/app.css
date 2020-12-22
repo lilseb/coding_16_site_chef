@@ -18170,6 +18170,27 @@ header .dents {
   font-family: "Ubuntu";
 }
 
+.section3 .our-story {
+  font-family: "courgette";
+}
+
+.section3 .our {
+  font-family: "courgette";
+  color: #B32A3A;
+  font-size: 50px;
+}
+
+.section3 .formulaire {
+  background-image: url("../../../public/img/book_table_bg.jpg");
+  width: 70%;
+  border-radius: 10px;
+}
+
+.section3 .formulaire .form-row .book-now {
+  background-color: #C12D3F;
+  border-radius: 30px;
+}
+
 body {
   margin: 0;
   background-image: url("../img/main_bg.jpg");

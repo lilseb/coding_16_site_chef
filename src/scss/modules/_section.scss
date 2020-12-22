@@ -63,3 +63,30 @@
     }
 
 }
+
+
+.section3{
+
+    
+    
+        .our-story{
+            font-family: "courgette";
+        }
+        .our{
+            font-family: "courgette";
+            color: #B32A3A;
+            font-size: 50px;
+        }
+
+        .formulaire{
+            background-image: url("../../../public/img/book_table_bg.jpg");
+            width: 70%;
+            border-radius: 10px;
+            .form-row{
+                .book-now{
+                    background-color: #C12D3F;
+                    border-radius:30px;
+                }
+            }
+        }
+    }
