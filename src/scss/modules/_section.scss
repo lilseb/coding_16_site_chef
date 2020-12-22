@@ -29,7 +29,7 @@
                         }
                     }
                     a:hover{
-                        border-color: #C12D3F;
+                        
                         border-right: 4px solid #C12D3F;
                     }
                 }
@@ -83,6 +83,10 @@
             width: 70%;
             border-radius: 10px;
             .form-row{
+                .coordonees{
+                    border-radius: 10px;
+                    width: 75%;
+                }
                 .book-now{
                     background-color: #C12D3F;
                     border-radius:30px;
