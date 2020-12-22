@@ -93,4 +93,29 @@
                 }
             }
         }
+
+        .cartes{
+            width: 70%;
+            .card{
+                img{
+                    border-radius: 15px;
+                    border: 3px solid;
+                    border-color: rgb(211, 211, 211);
+                }
+                .p-cartes{
+                    width:80%;
+                    background-color: #C12D3F;
+                    border-radius: 10px;
+                    margin-top: 50% ;
+                    margin-left: 6%;
+                    .date{
+                        font-family: "ubuntu";
+                        
+                        .num{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
