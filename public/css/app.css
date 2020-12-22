@@ -18159,6 +18159,7 @@ header .dents {
 
 .chef .chef-liste h2 .meet {
   color: #C12D3F;
+  font-size: 50px;
 }
 
 .chef .chef-liste h2 .chef-text {
@@ -18238,6 +18239,37 @@ header .dents {
   font-family: "courgette";
   color: #B32A3A;
   font-size: 50px;
+}
+
+.section5 h3 {
+  font-family: "courgette";
+}
+
+.section5 h3 .our {
+  font-family: "courgette";
+  color: #B32A3A;
+  font-size: 50px;
+}
+
+.section5 .contact {
+  background-color: #C12D3F;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.section5 .contact a .fas {
+  font-size: 50px;
+  color: white;
+}
+
+.section5 .contact hr {
+  background-color: white;
+}
+
+.section5 .dents-footer {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
 }
 
 body {
