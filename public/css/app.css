@@ -18148,6 +18148,28 @@ header .dents {
   border-right: 4px solid #C12D3F;
 }
 
+.chef {
+  background-image: url("../../../public/img/team_background.jpg");
+  height: 100vh;
+}
+
+.chef .chef-liste h2 {
+  font-family: "courgette";
+  color: white;
+}
+
+.chef .chef-liste h2 .meet {
+  color: #C12D3F;
+}
+
+.chef .chef-liste h2 .chef-text {
+  color: white;
+}
+
+.chef .chef-liste .chef-photo .chef1 p {
+  font-family: "Ubuntu";
+}
+
 body {
   margin: 0;
   background-image: url("../img/main_bg.jpg");
