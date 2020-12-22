@@ -18221,6 +18221,25 @@ header .dents {
   font-weight: bold;
 }
 
+.button-carte {
+  background-color: #C12D3F;
+}
+
+.section4 {
+  background-image: url("../../../public/img/testimonials_background.jpg");
+  height: 59vh;
+}
+
+.section4 h3 {
+  font-family: "courgette";
+}
+
+.section4 h3 .client {
+  font-family: "courgette";
+  color: #B32A3A;
+  font-size: 50px;
+}
+
 body {
   margin: 0;
   background-image: url("../img/main_bg.jpg");
