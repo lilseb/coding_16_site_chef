@@ -9,5 +9,31 @@
         font-size: 50px;
     }
 
-    
+    .menu-liste{
+        .row{
+            .col-2{
+                .list-group{
+                    a{
+                        font-family: "courgette";
+                        background-color: #fff;
+                        border:none;
+                        border-right: 2px solid;
+                        border-bottom: 2px solid;
+                        border-color: gray;
+                        i{
+                            color: gray;
+                        }
+                        i:hover{
+                            color:#C12D3F;
+                            
+                        }
+                    }
+                    a:hover{
+                        border-color: #C12D3F;
+                        border-right: 4px solid #C12D3F;
+                    }
+                }
+            }
+        }
+    }
 }

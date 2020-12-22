@@ -18126,6 +18126,28 @@ header .dents {
   font-size: 50px;
 }
 
+.section1 .menu-liste .row .col-2 .list-group a {
+  font-family: "courgette";
+  background-color: #fff;
+  border: none;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-color: gray;
+}
+
+.section1 .menu-liste .row .col-2 .list-group a i {
+  color: gray;
+}
+
+.section1 .menu-liste .row .col-2 .list-group a i:hover {
+  color: #C12D3F;
+}
+
+.section1 .menu-liste .row .col-2 .list-group a:hover {
+  border-color: #C12D3F;
+  border-right: 4px solid #C12D3F;
+}
+
 body {
   margin: 0;
   background-image: url("../img/main_bg.jpg");
