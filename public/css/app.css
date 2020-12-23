@@ -18239,7 +18239,6 @@ header .dents {
 
 .section4 {
   background-image: url("../../../public/img/testimonials_background.jpg");
-  height: 59vh;
 }
 
 .section4 h3 {
@@ -18316,4 +18315,5 @@ footer .footer-red {
 body {
   margin: 0;
   background-image: url("../img/main_bg.jpg");
+  font-family: "ubuntu";
 }
