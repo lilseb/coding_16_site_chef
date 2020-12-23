@@ -18126,7 +18126,7 @@ header .dents {
   font-size: 50px;
 }
 
-.section1 .menu-liste .row .col-2 .list-group a {
+.section1 .menu-liste .row .rex .list-group a {
   font-family: "courgette";
   background-color: #fff;
   border: none;
@@ -18135,20 +18135,31 @@ header .dents {
   border-color: gray;
 }
 
-.section1 .menu-liste .row .col-2 .list-group a i {
+.section1 .menu-liste .row .rex .list-group a i {
   color: gray;
 }
 
-.section1 .menu-liste .row .col-2 .list-group a i:hover {
+.section1 .menu-liste .row .rex .list-group a i:hover {
   color: #C12D3F;
 }
 
-.section1 .menu-liste .row .col-2 .list-group a:hover {
+.section1 .menu-liste .row .rex .list-group a:hover {
   border-right: 4px solid #C12D3F;
+}
+
+.section1 .menu-liste .row .dex .show .container .col-lg-6 {
+  border-bottom: 2px dashed grey;
+  width: 20%;
+}
+
+.section1 .menu-liste .row .dex .show .container .col-lg-6 .px-3 span {
+  background-color: #d1d1d1;
+  color: #B32A3A;
 }
 
 .chef {
   background-image: url("../../../public/img/team_background.jpg");
+  width: 100%;
   height: 100vh;
 }
 
@@ -18290,7 +18301,13 @@ footer .option .about-us .icons .fab {
   font-size: 30px;
 }
 
-.footer-red {
+footer .dents-footer {
+  position: absolute;
+  top: 0%;
+  display: flex;
+}
+
+footer .footer-red {
   background-color: #C12D3F;
   width: 100%;
   height: 100px;

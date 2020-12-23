@@ -11,7 +11,7 @@
 
     .menu-liste{
         .row{
-            .col-2{
+            .rex{
                 .list-group{
                     a{
                         font-family: "courgette";
@@ -34,12 +34,29 @@
                     }
                 }
             }
+            .dex{
+                .show{
+                    .container{
+                        .col-lg-6{
+                            border-bottom: 2px dashed grey;
+                            width: 20%;
+                            .px-3{
+                                span{
+                                    background-color: rgb(209, 209, 209);
+                                    color:#B32A3A;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 .chef{
     background-image: url("../../../public/img/team_background.jpg");
+    width:100%;
     height: 100vh;
     .chef-liste{
         h2{
