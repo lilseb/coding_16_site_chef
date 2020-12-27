@@ -18062,7 +18062,7 @@ a.text-text:hover, a.text-text:focus {
 
 @media (max-width: 991.98px) {
   header nav .collapse {
-    background: rgba(0, 0, 0, 0.363);
+    background: #000000ab;
   }
 }
 
@@ -18114,12 +18114,6 @@ header #carouselExampleCaptions .carousel-caption .button-header .button-rouge {
 
 header #carouselExampleCaptions .carousel-inner .carousel-item .img-c {
   filter: brightness(30%);
-}
-
-header .dents {
-  position: absolute;
-  bottom: 0%;
-  display: flex;
 }
 
 .section1 .our-story {

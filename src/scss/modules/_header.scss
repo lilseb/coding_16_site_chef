@@ -4,7 +4,7 @@ header{
     nav{
         .collapse{
             @include media-breakpoint-down(md){
-                background: rgba(0, 0, 0, 0.363);
+                background: #000000ab;
             }
         }
         .nav-item{
@@ -62,10 +62,5 @@ header{
             }
         }
         
-    }
-    .dents{
-        position:  absolute;
-        bottom:0%;
-        display: flex;
     }
 }
